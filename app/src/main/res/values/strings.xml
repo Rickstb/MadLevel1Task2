@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MadLevel1Task2</string>
+    <string name="Titel">Conjunction (AND)</string>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="AB">A ^ B</string>
+    <string name="T">T</string>
+    <string name="F">F</string>
+    <string name="TT_veld" />
+    <string name="btnSubmit">Submit</string>
+    <string name="Correct">zijn correct</string>
+    <string name="inCorrect">U heeft 0 correct</string>
+</resources>
