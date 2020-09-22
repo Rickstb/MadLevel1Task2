@@ -8,6 +8,5 @@
     <string name="F">F</string>
     <string name="TT_veld" />
     <string name="btnSubmit">Submit</string>
-    <string name="Correct">zijn correct</string>
-    <string name="inCorrect">U heeft 0 correct</string>
-</resources>
+    <string name="Correct">%d zijn correct</string>
+   </resources>

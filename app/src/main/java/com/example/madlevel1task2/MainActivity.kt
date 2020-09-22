@@ -29,21 +29,21 @@ class MainActivity : AppCompatActivity() {
        val answer3 =binding.FTVeld.text.toString()
         val answer4 =binding.FFVeld.text.toString()
 
-        var aantCorrect: Int =  0
+        var aantCorrect =  0
 
         if (answer1 == "T") {
-            aantCorrect + 1
+            aantCorrect = aantCorrect + 1
         }
         if (answer2 == "F") {
-            aantCorrect + 1
+            aantCorrect += 1
         }
         if (answer3 == "F") {
-            aantCorrect + 1
+            aantCorrect += 1
         }
         if (answer4 == "F") {
-            aantCorrect + 1
+            aantCorrect += 1
         }
-        //Toast.makeText(this, getString(R.string.Correct), Toast.LENGTH_LONG).show()
+        Toast.makeText(this, getString(R.string.Correct, aantCorrect), Toast.LENGTH_LONG).show()
        
     }
 }
