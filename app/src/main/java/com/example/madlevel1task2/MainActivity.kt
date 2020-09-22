@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         var aantCorrect =  0
 
         if (answer1 == "T") {
-            aantCorrect = aantCorrect + 1
+            aantCorrect += 1
         }
         if (answer2 == "F") {
             aantCorrect += 1
